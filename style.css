@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;   
+}
+
+.boxStart{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+.ghost{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: green;
+    z-index: 3;
+}
+
+.eyes{
+    position: absolute;
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    bottom: 45%;
+    background-color: white;
+}
+
+.eyeleft{
+    left: 10%;
+}
+
+.eyeright{
+    right: 10%;
+}
+
+.eyes:after{
+    position: absolute;
+    bottom: 35%;
+    content: " ";
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    left: 20%;
+    border-radius: 50%;
+}
+
+.pacman{
+    z-index: 2;
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.eye{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 20%;
+    background-color: black;
+    border-radius: 50%;
+    height: 20%;
+}
+
+.mouth{
+    position: absolute;
+    left: 60%;
+    bottom: 35%;
+    width: 40%;
+    background-color: black;
+    height: 10%;
+}
