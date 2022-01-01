@@ -13,7 +13,7 @@ Practice creating the PacMan game using JavaScript and JavaScriptDom
 For any questions, find me on [linkedin](https://www.linkedin.com/in/simrat-karamjeet/)
 
 ## Roadmap:
-This is a learning project on the Udemy course by Laurence Svekis "JavaScript DOM Pacman Game Project Learn JavaScript Code"
+This project is for educational purposes based on the Udemy course by Laurence Svekis "JavaScript DOM Pacman Game Project Learn JavaScript Code"
 
 ## License
 This project is licensed under the [Udemy Intellectual Property Policy](https://www.udemy.com/terms/)
